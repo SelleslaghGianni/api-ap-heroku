@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://620cf5fe8c870d168c758bd1--upbeat-engelbart-6a0e3d.netlify.app/'
+        origin: 'https://620cf5fe8c870d168c758bd1--upbeat-engelbart-6a0e3d.netlify.app'
     })
 );
 app.options('*', cors());
